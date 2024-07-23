@@ -1,7 +1,5 @@
 course = "Phyton"
-hours_spent = 1.5
-completed_hw = 12
-time_to_complete = (1.5 / 12)
-print\
-    (course, "всего задач:", completed_hw, ", затрачено часов:",
-     hours_spent, ", среднее время выполнения", time_to_complete, "часа.")
+hours = 1.5
+completed = 12
+time = (hours / completed)
+print(course, "всего задач:", completed, ", затрачено часов:", hours, ", среднее время выполнения", time, "часа.")
