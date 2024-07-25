@@ -1,18 +1,12 @@
 # Организация программы
 my_string = input("Привет, как мне к Вам обращаться? ")
-
+number = len(my_string)
+print(number)
 
 # Работа с методами строк
-# Врехний регистр
 my_string = input("Привет, как мне к Вам обращаться? ")
+
 print("Привет,", my_string.upper())
-
-
-# Нижний регистр
-my_string = input("Привет, как мне к Вам обращаться? ")
 print("Привет,", my_string.lower())
 
-
-# Без пробелов
-my_string = input("Привет, как мне к Вам обращаться? ".replace(' ', ''))
-print("Привет,", my_string)
+my_string = input("Привет, Как Мне К Вам Обращаться? ".replace(' ', ''))
