@@ -8,8 +8,7 @@ my_string = input("Привет, как мне к Вам обращаться? "
 
 print("Привет,", my_string.upper())
 print("Привет,", my_string.lower())
+print("Привет,", my_string[0])
+print("Привет,", my_string[-1])
 
 my_string = input("Привет, Как Мне К Вам Обращаться? ".replace(' ', ''))
-
-my_string = input("Привет, как мне к Вам обращаться? "[0])
-my_string = input("Привет, как мне к Вам обращаться? "[-2])
