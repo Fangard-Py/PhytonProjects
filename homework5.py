@@ -6,7 +6,6 @@ print(immutable_var)
 
 immutable_var = (["меняюсь"], "не меняюсь")
 immutable_var[0][0] = "изменился"
-
 print(immutable_var)
 
 
@@ -14,5 +13,4 @@ mutable_list = ["Список", "Записка", "Табуретка"]
 mutable_list[0] = "Косипс"
 mutable_list[1] = "Аксипаз"
 mutable_list[2] = "Актерубат"
-
 print(mutable_list)
