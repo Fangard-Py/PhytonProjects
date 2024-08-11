@@ -1,7 +1,7 @@
 import random
 
 first_stone = []
-second_stone = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+second_stone = range(1, 20)
 rand_num = random.choice([3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
 first_stone.append(rand_num)
 print(first_stone)
