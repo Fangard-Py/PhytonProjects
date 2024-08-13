@@ -12,9 +12,6 @@ def string_info(string):
     return string
 
 
-string_info('string')
-
-
 def is_contains(string, list_to_search):
     count_calls()
     global calls
