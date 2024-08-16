@@ -1,12 +1,13 @@
 import random
-result = str()
-first_stone = []
-second_stone = range(1, 20)
-rand_num = random.choice(range(3, 20))
-first_stone.append(rand_num)
+
+first_stone = random.choice(range(3, 20))
 print(first_stone)
-for i in first_stone:
-    for j in second_stone:
-        if i % j == 0:
-            result += f'{j}'
-            print(f'{first_stone} - {result}')
+
+result = ''
+for i in range(1,21):
+    for j in range(1+i, 21):
+        if i + j > first_stone:
+            break
+        elif first_stone % (i+j) == 0:
+            result += str(i) + str(j)
+            print(result)
